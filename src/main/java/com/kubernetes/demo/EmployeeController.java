@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/employees")
-public class LazyController {
+public class EmployeeController {
 
 //    @Lazy
     @Autowired
-    LazyService lazyService;
+    EmployeeService lazyService;
 
     @GetMapping
     public String hello() {

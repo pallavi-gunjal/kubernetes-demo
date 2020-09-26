@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service;
 
 //@Lazy
 @Service
-public class LazyService {
+public class EmployeeService {
 
-	public LazyService() {
+	public EmployeeService() {
 		System.out.println("Lazy Service:: Constructor loaded");
 	}
 
